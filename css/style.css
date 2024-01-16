@@ -1,0 +1,24 @@
+:root {
+    --base-background-color: #000000;
+    --b:#482DE1;
+    --c:#8D2DE1;
+    --d:#48F6E1;
+    --e:#8A5AE1;
+}
+
+* {
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.menu-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #482DE1;
+}
