@@ -1,9 +1,8 @@
 :root {
-    --base-background-color: #000000;
-    --b:#482DE1;
-    --c:#8D2DE1;
-    --d:#48F6E1;
-    --e:#8A5AE1;
+    --base-white: #eee5e9;
+    --base-brown: #E07A5F;
+    --light-green: #A7C957;
+    --mid-green
 }
 
 * {
