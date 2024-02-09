@@ -14,7 +14,7 @@ body {
     background-color: var(--black);
     display: grid;
     grid-template-columns: 10fr 2fr;
-    grid-template-rows: 70px 1000px;
+    /* grid-template-rows: 70px 1000px; */
     grid-template-areas: 
     "hd nv"
     "mn nv"
