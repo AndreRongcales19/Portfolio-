@@ -59,15 +59,16 @@ main p {
     color: var(--white);
 }
 
-main .my-face {
+main > .my-face {
     margin-left: 200px;
-    height: 700px;
+    height: 500px;
+    border-radius: 3mm;
 }
 
 nav {
     display: flex;
     flex-direction: column;
-    grid-area: nv;
+    grid-area: nv; 
     border: 0.5px solid var(--grey);
     border-top: none;
     border-right: none;
@@ -81,7 +82,12 @@ a {
 }
 
 a:hover {
-    background-color: #49494944;
+    /* background-color: #49494944; */
     border-radius: 5mm;
+    transform: scale(1.3);
+}
+
+header > a:hover {
+    transform: scale(1.3);
 }
 
