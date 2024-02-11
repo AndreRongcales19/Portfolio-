@@ -83,7 +83,8 @@ a {
     color: var(--white);
     text-decoration: none;
     padding: 2px;
-}
+    transition: transform .2s;
+}   
 
 a:hover {
     /* background-color: #49494944; */

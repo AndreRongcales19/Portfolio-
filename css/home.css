@@ -29,7 +29,7 @@ header {
     border-right: none;
 }
 
-header a {
+header > a {
     font-size: 2.5vw;
     margin-top: 50px;
     margin-left: 100px;
@@ -79,6 +79,7 @@ a {
     color: var(--white);
     text-decoration: none;
     padding: 2px;
+    transition: transform .2s;
 }
 
 a:hover {
